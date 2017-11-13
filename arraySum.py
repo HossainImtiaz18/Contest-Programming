@@ -1,0 +1,5 @@
+[M,N] = map(int,raw_input().split())
+A = map(int,raw_input().split())
+B = map(int,raw_input().split())
+#print sum( i for i in A ) + sum(i for i in B)
+print sum( A[i] for i in xrange(0,M) )+sum( B[i] for i in xrange(0,N) )
